@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3CE32413-68D7-4903-AB30-2C5ABD55704D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ITLinphone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4062EB1E764484C2AFF51AA53E0BF136F7E9166</key>
+		<string>https://github.com/buihung/ITLinphone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ITLinphone/ITLinphone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4062EB1E764484C2AFF51AA53E0BF136F7E9166</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/buihung/ITLinphone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4062EB1E764484C2AFF51AA53E0BF136F7E9166</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4062EB1E764484C2AFF51AA53E0BF136F7E9166</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IT_GIT</string>
+		</dict>
+	</array>
+</dict>
+</plist>
