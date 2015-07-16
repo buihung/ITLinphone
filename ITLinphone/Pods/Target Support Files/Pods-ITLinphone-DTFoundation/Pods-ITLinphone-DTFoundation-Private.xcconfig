@@ -1,0 +1,6 @@
+#include "Pods-ITLinphone-DTFoundation.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DTFoundation" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DTCoreText" "${PODS_ROOT}/Headers/Public/DTFoundation" "${PODS_ROOT}/Headers/Public/NSData+Base64" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/ZipArchive" ${PODS_ITLINPHONE_DTFOUNDATION_HEADER_SEARCH_PATHS}
+OTHER_LDFLAGS = ${PODS_ITLINPHONE_DTFOUNDATION_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

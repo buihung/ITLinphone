@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DTCoreText" "${PODS_ROOT}/Headers/Public/DTFoundation" "${PODS_ROOT}/Headers/Public/NSData+Base64" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/ZipArchive" "$(SDKROOT)/usr/include/libxml2"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DTCoreText" -isystem "${PODS_ROOT}/Headers/Public/DTFoundation" -isystem "${PODS_ROOT}/Headers/Public/NSData+Base64" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/ZipArchive"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-ITLinphone-DTCoreText" -l"Pods-ITLinphone-DTFoundation" -l"Pods-ITLinphone-NSData+Base64" -l"Pods-ITLinphone-SDWebImage" -l"Pods-ITLinphone-ZipArchive" -l"xml2" -l"z" -framework "CoreGraphics" -framework "CoreText" -framework "ImageIO" -framework "MediaPlayer" -framework "QuartzCore"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

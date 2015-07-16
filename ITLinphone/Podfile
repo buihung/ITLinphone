@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '6.0'
+
+target 'ITLinphone' do
+pod 'DTCoreText', '~> 1.6'
+pod 'SDWebImage', '~> 3.7'
+#pod 'AFNetworking', '~> 2.5'
+#pod 'MBProgressHUD', '~> 0.9'
+#pod 'GMGridView', '~> 1.1'
+pod 'NSData+Base64', '~> 1.0'
+pod 'ZipArchive', '~> 1.4'
+end
+
