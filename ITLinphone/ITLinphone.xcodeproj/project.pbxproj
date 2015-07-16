@@ -592,6 +592,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7";
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
@@ -628,6 +629,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7";
 				WARNING_CFLAGS = (
 					"-Werror=objc-method-access",
@@ -690,6 +692,7 @@
 				881BD2891B5784DC00AE9EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881BD28A1B5784DC00AE9EF2 /* Build configuration list for PBXNativeTarget "ITLinphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +701,7 @@
 				881BD28C1B5784DC00AE9EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
