@@ -13,7 +13,6 @@
 		881BD2731B5784DC00AE9EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881BD2711B5784DC00AE9EF2 /* Main.storyboard */; };
 		881BD2751B5784DC00AE9EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881BD2741B5784DC00AE9EF2 /* Images.xcassets */; };
 		881BD2781B5784DC00AE9EF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881BD2761B5784DC00AE9EF2 /* LaunchScreen.xib */; };
-		881BD2841B5784DC00AE9EF2 /* ITLinphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BD2831B5784DC00AE9EF2 /* ITLinphoneTests.m */; };
 		881BD2D51B5785DD00AE9EF2 /* libantlr3c.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BD2B71B5785DC00AE9EF2 /* libantlr3c.a */; };
 		881BD2D61B5785DD00AE9EF2 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BD2B81B5785DC00AE9EF2 /* libavcodec.a */; };
 		881BD2D71B5785DD00AE9EF2 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BD2B91B5785DC00AE9EF2 /* libavutil.a */; };
@@ -62,16 +61,6 @@
 		881BD3191B57999D00AE9EF2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BD3181B57999D00AE9EF2 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		881BD27E1B5784DC00AE9EF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 881BD25C1B5784DC00AE9EF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 881BD2631B5784DC00AE9EF2;
-			remoteInfo = ITLinphone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		881BD2641B5784DC00AE9EF2 /* ITLinphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITLinphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881BD2681B5784DC00AE9EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,9 +72,6 @@
 		881BD2721B5784DC00AE9EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		881BD2741B5784DC00AE9EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		881BD2771B5784DC00AE9EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		881BD27D1B5784DC00AE9EF2 /* ITLinphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITLinphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		881BD2821B5784DC00AE9EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		881BD2831B5784DC00AE9EF2 /* ITLinphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITLinphoneTests.m; sourceTree = "<group>"; };
 		881BD2B71B5785DC00AE9EF2 /* libantlr3c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libantlr3c.a; path = "liblinphone-sdk/apple-darwin/lib/libantlr3c.a"; sourceTree = "<group>"; };
 		881BD2B81B5785DC00AE9EF2 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "liblinphone-sdk/apple-darwin/lib/libavcodec.a"; sourceTree = "<group>"; };
 		881BD2B91B5785DC00AE9EF2 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "liblinphone-sdk/apple-darwin/lib/libavutil.a"; sourceTree = "<group>"; };
@@ -189,13 +175,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		881BD27A1B5784DC00AE9EF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -205,7 +184,6 @@
 				881BD30C1B5796A300AE9EF2 /* Linphone Support files */,
 				881BD3031B578E9100AE9EF2 /* Frameworkds */,
 				881BD2661B5784DC00AE9EF2 /* ITLinphone */,
-				881BD2801B5784DC00AE9EF2 /* ITLinphoneTests */,
 				881BD2651B5784DC00AE9EF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -214,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				881BD2641B5784DC00AE9EF2 /* ITLinphone.app */,
-				881BD27D1B5784DC00AE9EF2 /* ITLinphoneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,23 +217,6 @@
 				881BD2681B5784DC00AE9EF2 /* Info.plist */,
 				881BD2691B5784DC00AE9EF2 /* main.m */,
 				881BD30B1B57958600AE9EF2 /* PrefixHeader.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		881BD2801B5784DC00AE9EF2 /* ITLinphoneTests */ = {
-			isa = PBXGroup;
-			children = (
-				881BD2831B5784DC00AE9EF2 /* ITLinphoneTests.m */,
-				881BD2811B5784DC00AE9EF2 /* Supporting Files */,
-			);
-			path = ITLinphoneTests;
-			sourceTree = "<group>";
-		};
-		881BD2811B5784DC00AE9EF2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				881BD2821B5784DC00AE9EF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -359,24 +319,6 @@
 			productReference = 881BD2641B5784DC00AE9EF2 /* ITLinphone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		881BD27C1B5784DC00AE9EF2 /* ITLinphoneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 881BD28A1B5784DC00AE9EF2 /* Build configuration list for PBXNativeTarget "ITLinphoneTests" */;
-			buildPhases = (
-				881BD2791B5784DC00AE9EF2 /* Sources */,
-				881BD27A1B5784DC00AE9EF2 /* Frameworks */,
-				881BD27B1B5784DC00AE9EF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				881BD27F1B5784DC00AE9EF2 /* PBXTargetDependency */,
-			);
-			name = ITLinphoneTests;
-			productName = ITLinphoneTests;
-			productReference = 881BD27D1B5784DC00AE9EF2 /* ITLinphoneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -388,10 +330,6 @@
 				TargetAttributes = {
 					881BD2631B5784DC00AE9EF2 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					881BD27C1B5784DC00AE9EF2 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 881BD2631B5784DC00AE9EF2;
 					};
 				};
 			};
@@ -409,7 +347,6 @@
 			projectRoot = "";
 			targets = (
 				881BD2631B5784DC00AE9EF2 /* ITLinphone */,
-				881BD27C1B5784DC00AE9EF2 /* ITLinphoneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -422,13 +359,6 @@
 				881BD2731B5784DC00AE9EF2 /* Main.storyboard in Resources */,
 				881BD2781B5784DC00AE9EF2 /* LaunchScreen.xib in Resources */,
 				881BD2751B5784DC00AE9EF2 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		881BD27B1B5784DC00AE9EF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,23 +377,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		881BD2791B5784DC00AE9EF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				881BD2841B5784DC00AE9EF2 /* ITLinphoneTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		881BD27F1B5784DC00AE9EF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 881BD2631B5784DC00AE9EF2 /* ITLinphone */;
-			targetProxy = 881BD27E1B5784DC00AE9EF2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		881BD2711B5784DC00AE9EF2 /* Main.storyboard */ = {
@@ -639,40 +553,6 @@
 			};
 			name = Release;
 		};
-		881BD28B1B5784DC00AE9EF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ITLinphoneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITLinphone.app/ITLinphone";
-			};
-			name = Debug;
-		};
-		881BD28C1B5784DC00AE9EF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ITLinphoneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITLinphone.app/ITLinphone";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,15 +570,6 @@
 			buildConfigurations = (
 				881BD2881B5784DC00AE9EF2 /* Debug */,
 				881BD2891B5784DC00AE9EF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		881BD28A1B5784DC00AE9EF2 /* Build configuration list for PBXNativeTarget "ITLinphoneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				881BD28B1B5784DC00AE9EF2 /* Debug */,
-				881BD28C1B5784DC00AE9EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
